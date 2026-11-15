@@ -1,3 +1,8 @@
+> 公开网站：https://oftenmissyi.github.io/kitchen-inventory/
+>
+> 此仓库独立发布厨房应用，不修改个人 portfolio 仓库。
+> 修改源码后，执行 `pnpm install`、`pnpm test`、`pnpm build:pages`，将更新后的源码和 `docs/` 一起提交到 `main`。
+> GitHub Pages 从 `main` 分支的 `/docs` 目录发布。首次从其他网址迁移库存请导出/导入 JSON。
 # 小厨房 · Kitchen Inventory
 
 供单人使用的厨房库存 Web App。简体中文界面，无登录、无后端，所有数据仅保存在当前浏览器的 localStorage。
@@ -117,3 +122,4 @@ Phase 2 浏览器验收已覆盖：6 项混合批量预览与执行、逐条修�
 - **AI 菜谱**：新增独立 recipes 服务和页面，只将确认有货的食材用于建议；未知数量明确标注，待核实食材单独提示。模型请求通过后端/Edge Function，密钥不进入前端。建议生成采购清单前由用户确认。
 
 当前未实现跨标签页冲突合并、云同步、深色主题或 AI。请定期导出备份，尤其是在清理浏览器或换设备之前。
+
